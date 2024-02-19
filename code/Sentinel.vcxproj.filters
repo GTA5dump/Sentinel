@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Common.hpp" />
+    <ClInclude Include="MainScript.hpp" />
+    <ClInclude Include="UI\AbstractOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\AbstractSubmenu.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BaseOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BaseSubmenu.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BoolOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ChooseOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\NumberOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\PlayerSubmenu.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\RegularOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\RegularSubmenu.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SubOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIManager.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Include.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Batch.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\BytePatch.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Declaration.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Handle.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Module.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Pattern.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Range.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossMap.hpp">
+      <Filter>Invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoker.hpp">
+      <Filter>Invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="Natives.hpp">
+      <Filter>Invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.hpp">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptGlobal.hpp">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptHook.hpp">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptManager.hpp">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer.hpp">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DScript.hpp">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.hpp">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomText.hpp">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeHook.hpp">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHook.hpp">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.hpp">
+      <Filter>Invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Pointers.hpp">
+      <Filter>Pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionTypes.hpp">
+      <Filter>Pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\FeatureManager.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Player.hpp">
+      <Filter>Features\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.hpp" />
+    <ClInclude Include="Game.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\NumberBoolOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ChooseBoolOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Functions.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Weapon.hpp">
+      <Filter>Features\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Vehicle.hpp">
+      <Filter>Features\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Removals.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Network.hpp">
+      <Filter>Features\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\World.hpp">
+      <Filter>Features\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Misc.hpp">
+      <Filter>Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Teleport.hpp">
+      <Filter>Features\Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Protections.hpp">
+      <Filter>Features\Protections</Filter>
+    </ClInclude>
+    <ClInclude Include="netGameEvent.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Obfuscate.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth\Auth.hpp">
+      <Filter>Auth\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth\Includes.hpp">
+      <Filter>Auth\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth\Utility.hpp">
+      <Filter>Auth\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth\Implementation.hpp">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger.hpp">
+      <Filter>Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\KeyboardOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BreakOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptHandler.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptFiber.hpp">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Address.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Notifications.hpp">
+      <Filter>DX\Notifications</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="MainScript.cpp" />
+    <ClCompile Include="UI\UIManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Batch.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\BytePatch.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Module.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Pattern.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Range.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossMap.cpp">
+      <Filter>Invoker</Filter>
+    </ClCompile>
+    <ClCompile Include="Invoker.cpp">
+      <Filter>Invoker</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptHook.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptManager.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DScript.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomText.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeHook.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers.cpp">
+      <Filter>Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\FeatureManager.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Player.cpp">
+      <Filter>Features\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Weapon.cpp">
+      <Filter>Features\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Vehicle.cpp">
+      <Filter>Features\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Network.cpp">
+      <Filter>Features\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\World.cpp">
+      <Filter>Features\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Misc.cpp">
+      <Filter>Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Auth\Auth.cpp">
+      <Filter>Auth\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Auth\Utility.cpp">
+      <Filter>Auth\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Auth\Credentials.hpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger.cpp">
+      <Filter>Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptFiber.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Notifications.cpp">
+      <Filter>DX\Notifications</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="UI">
+      <UniqueIdentifier>{77afe01f-1408-49bd-a88b-21e856118c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{9958264f-83ea-41ad-9181-eb12d95b31af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{e5b7f1ad-6540-499b-888d-bff9324d64e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Invoker">
+      <UniqueIdentifier>{c73b2d0b-8048-46be-8b56-ee5eee8a81a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{fccb094a-9a43-43ae-bb6b-d1c7c5e2e9af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX">
+      <UniqueIdentifier>{1273d32a-ab2d-4edc-ae74-4fb293b8bf07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooking">
+      <UniqueIdentifier>{db5bffcc-029c-4604-a5ae-4951d51fa838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pointers">
+      <UniqueIdentifier>{841cf408-436c-4028-9925-0a14b4b5297d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{3caea1cf-b33a-4867-bc7f-c859560eafac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Player">
+      <UniqueIdentifier>{e0f4e0df-0c79-4e7e-bbd7-1831d960f760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Weapon">
+      <UniqueIdentifier>{3c7ea175-503d-4f40-83d5-83bcc0cd1f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Vehicle">
+      <UniqueIdentifier>{419f7636-3317-4a88-86a2-c456c06c0ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Network">
+      <UniqueIdentifier>{e8a2a426-0aa8-4bc4-9739-548638cc3085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\World">
+      <UniqueIdentifier>{74f7db91-060a-415c-8602-d36c1ceb668d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Misc">
+      <UniqueIdentifier>{0a41f55f-b494-4c46-9573-f8f9bfdc2d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Teleport">
+      <UniqueIdentifier>{5bbfad47-4029-4006-bdf4-0103d41351e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Protections">
+      <UniqueIdentifier>{d72af89f-d9bb-4288-bd2a-a8245ccf1706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{5a9253f6-fcaa-4b5d-a999-664ff972a067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth\Backend">
+      <UniqueIdentifier>{84e5ef8c-08cd-47d2-823f-31c352705df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debugger">
+      <UniqueIdentifier>{1083c1d9-ab2a-4931-b9ef-d995f2c6ea0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{5dcf9cfd-bae2-493c-9441-9e9dbece425d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX\Notifications">
+      <UniqueIdentifier>{fd987b99-fbcc-4751-a687-9bb501a7cfa4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="InvokerSpoof.asm">
+      <Filter>Invoker</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
